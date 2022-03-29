@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     target = 6
     maxDepth = 3
-    src = 3
+    src = 0
     if g.IDDFS(src, target, maxDepth):
         print("Tồn tại đường đi")
     else:
